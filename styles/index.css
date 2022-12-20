@@ -51,6 +51,23 @@ a:hover {
 
 #button:hover {
     background-color: #fff;
-    color:  #F25A70;
+    color: #F25A70;
     transform: scale(1.08);
+}
+
+.titulo {
+    width: 627px;
+    height: 184px;
+    background: #3A4042;
+    box-shadow: 5px 5px 0 black;
+}
+
+
+
+h2 {
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:#fff;
+    text-shadow: 5px 5px 0 black;
+    padding: 10px 0 44px 40px;
 }

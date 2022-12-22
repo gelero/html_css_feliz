@@ -38,22 +38,6 @@ a:hover {
     color: #fff;
 }
 
-#button {
-    display: inline-block;
-    background-color: #F25A70;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 20px 0 20px;
-    box-shadow: 5px 5px 0 black;
-    margin-right: 0;
-    transition: 200ms ease;
-}
-
-#button:hover {
-    background-color: #fff;
-    color: #F25A70;
-    transform: scale(1.08);
-}
 
 
 

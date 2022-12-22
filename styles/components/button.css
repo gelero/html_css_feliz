@@ -10,7 +10,6 @@
     transition: 200ms ease;
     text-decoration: none;
     font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }
 
 .button:hover {

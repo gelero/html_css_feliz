@@ -1,0 +1,24 @@
+.banner {
+    box-sizing: border-box;
+    background-image: url(../../imagens_portfolio/photo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh; 
+    border-bottom: 10px solid black;
+    padding: 45px 0 0 45px;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+}
+
+.banner .box_title {
+    margin-bottom: 40px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+}

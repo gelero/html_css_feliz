@@ -15,12 +15,16 @@
     <link rel="stylesheet" href="./styles/components/header.css">
     <link rel="stylesheet" href="./styles/components/action.css">
     <link rel="stylesheet" href="./styles/components/button.css">
-    <link rel="stylesheet" href="./styles/components/title.css">
+    <link rel="stylesheet" href="./styles/components/main-title.css">
     <link rel="stylesheet" href="./styles/components/subtitle.css">
     <link rel="stylesheet" href="./styles/components/box_title.css">
     <link rel="stylesheet" href="./styles/components/banner.css">
     <link rel="stylesheet" href="./styles/components/section.css">
-    
+    <link rel="stylesheet" href="./styles/components/skills-tec.css">
+    <link rel="stylesheet" href="./styles/components/progress-bar.css">
+    <link rel="stylesheet" href="./styles/components/wrapper-skills.css">
+    <link rel="stylesheet" href="./styles/components/content_project.css">
+    <link rel="stylesheet" href="./styles/components/icon_project.css">
     <title>Portfólio</title>
 </head>
 
@@ -40,7 +44,7 @@
     <section class="banner">
         <div class="wrapper">
             <div class="box_title">
-                <h1 class="title">GELERO_DEV</h1>
+                <h1 class="main-title">GELERO_DEV</h1>
                 <h2 class="subtitle">FrontEnd Developer</h2>
             </div>
             <div class="navigation">
@@ -51,10 +55,88 @@
     </section>
 
     <section class="section">
+        <h1 class="main-title -second">Skills</h1>
+        <div class="wrapper-skills">
+            <article class="skills-tec">
+                <img class="icon" src="./imagens_portfolio/ico_html5.png" alt="">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="68">78%</progress>
+                </div>
+            </article>
+            <article class="skills-tec">
+                <img class="icon" src="./imagens_portfolio/ico_nodejs.png" alt="">
+                <div class="right">
+                    <h3 class="title">NodeJS</h3>
+                    <progress class="progress-bar" max="100" value="68">78%</progress>
+                </div>
+            </article>
+            <article class="skills-tec">
+                <img class="icon" src="./imagens_portfolio/ico_css3.png" alt="">
+                <div class="right">
+                    <h3 class="title">CSS</h3>
+                    <progress class="progress-bar" max="100" value="68">78%</progress>
+                </div>
+            </article>
+            <article class="skills-tec">
+                <img class="icon" src="./imagens_portfolio/ico_tdd.png" alt="">
+                <div class="right">
+                    <h3 class="title">TDD</h3>
+                    <progress class="progress-bar" max="100" value="68">78%</progress>
+                </div>
+            </article>
+            <article class="skills-tec">
+                <img class="icon" src="./imagens_portfolio/ico_js.png" alt="">
+                <div class="right">
+                    <h3 class="title">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="68">78%</progress>
+                </div>
+            </article>
+            <article class="skills-tec">
+                <img class="icon" src="./imagens_portfolio/ico_restapi.png" alt="">
+                <div class="right">
+                    <h3 class="title">Rest API</h3>
+                    <progress class="progress-bar" max="100" value="68">78%</progress>
+                </div>
+            </article>
+            <article class="skills-tec">
+                <img class="icon" src="./imagens_portfolio/ico_react.png" alt="">
+                <div class="right">
+                    <h3 class="title">React</h3>
+                    <progress class="progress-bar" max="100" value="68">68%</progress>
+                </div>
+            </article>
+            <article class="skills-tec">
+                <img class="icon" src="./imagens_portfolio/ico_ux.png" alt="">
+                <div class="right">
+                    <h3 class="title">UX</h3>
+                    <progress class="progress-bar" max="100" value="68">78%</progress>
+                </div>
+            </article>
+        </div>
 
-        <h1 class="title -second">Skills</h1>
-      
+    </section>
 
+    <section class="section -second">
+        <h1 class="main-title -second">Projetos</h1>
+        <div class="content_project">
+            <a href="">
+                <figure class="icon_project">
+                    <img class="icon_first" src="./imagens_portfolio/logo-firedlabs.svg" alt="">
+                </figure>
+            </a>
+            <a href="">
+                <figure class="icon_project second">
+                    <img class="icon_second" src="./imagens_portfolio/logo-collabcode.png" alt="">
+                </figure>
+            </a>
+            <a href="">
+                <figure>
+                    <img class="icon_third" src="./imagens_portfolio/portfolio.png" alt="">
+                </figure>
+            </a>
+
+        </div>
     </section>
 </body>
 
